@@ -1,7 +1,19 @@
-function goCartaEspanol(){
-    window.scrollBy(0, 100);
+function goToCastellano(){
+    var elmnt = document.getElementById("cartaEspanol");
+    elmnt.scrollIntoView();
 }
 
-function goCartaCatalan(){
-    window.scrollBy(0, 2050);
+function goToCatalan(){
+    var elmnt = document.getElementById("cartaCatala");
+    elmnt.scrollIntoView();
+}
+
+function goToInformacion(){
+    var elmnt = document.getElementById("Informacion");
+    elmnt.scrollIntoView();
+}
+
+function goToResenas(){
+    var elmnt = document.getElementById("Reseñas");
+    elmnt.scrollIntoView();
 }

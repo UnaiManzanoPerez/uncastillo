@@ -15,21 +15,21 @@
         <div class="container-sm header">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link" onclick="goCartaEspanol()"><img src="assets/espana.png" onclick="goCartaEspanol()" class="bandera">Carta Castellano</a>
+                    <a class="nav-link" onclick="goToCastellano()"><img src="assets/espana.png" onclick="goToCastellano()" class="bandera">Carta Castellano</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onclick="goCartaCatalan()"><img src="assets/catalan.png" onclick="goCartaCatalan()" class="bandera">Carta Català</a>
+                    <a class="nav-link" onclick="goToCatalan()"><img src="assets/catalan.png" onclick=" goToCatalan()" class="bandera">Carta Català</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><img src="assets/info.png" class="bandera">Información</a>
+                    <a class="nav-link"  onclick="goToInformacion()"><img src="assets/info.png" onclick="goToInformacion()" class="bandera">Información</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><img src="assets/estrella.png" class="bandera">Reseñas</a>
+                    <a class="nav-link" onclick="goToResenas()"><img src="assets/estrella.png" onclick="goToResenas()" class="bandera">Reseñas</a>
                 </li>
              </ul>
         </div>
         <br>
-        <div name="cartaEspanol">
+        <div id="cartaEspanol" >
             <div class="titulo">Carta en Español</div>
                 <div class="cajaMain">
                     <div class="cajita">
@@ -125,7 +125,7 @@
                 </div>
         </div>
         <hr>
-        <div name="cartaCatala">
+        <div id="cartaCatala">
             <div class="titulo">Carta en Català</div>
             <div class="cajaMain">
                 <div class="cajita">
@@ -223,11 +223,11 @@
         
         </div>
         <hr>
-        <div name="Informacion">
+        <div id="Informacion">
             <div class="titulo">Información</div>
         </div>
         <hr>
-        <div name="Reseñas">
+        <div id="Reseñas">
             <div class="titulo">Reseñas</div>
         </div>
     </div>
