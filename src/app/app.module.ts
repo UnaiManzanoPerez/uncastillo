@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CartaCatalaComponent } from './carta-catala/carta-catala.component';
 import { CartaCastellanoComponent } from './carta-castellano/carta-castellano.component';
 import { InformacionComponent } from './informacion/informacion.component';
+import { ResenasComponent } from './resenas/resenas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CartaCatalaComponent,
     CartaCastellanoComponent,
-    InformacionComponent
+    InformacionComponent,
+    ResenasComponent
   ],
   imports: [
     BrowserModule,
