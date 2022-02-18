@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <script src="script.js"></script>
@@ -12,129 +14,139 @@
     <link rel="icon" href="/assets/icon.png">
     <title>Bar Uncastillo</title>
 </head>
+
 <body>
     <div class="centrado">
         <div class="container-sm header">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link" onclick="goToCastellano()"><img src="assets/espana.png" onclick="goToCastellano()" class="bandera">Carta Castellano</a>
+                    <a class="nav-link" onclick="goToCastellano()"><img src="assets/espana.png"
+                            onclick="goToCastellano()" class="bandera">Carta Castellano</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onclick="goToCatalan()"><img src="assets/catalan.png" onclick=" goToCatalan()" class="bandera">Carta Català</a>
+                    <a class="nav-link" onclick="goToCatalan()"><img src="assets/catalan.png" onclick=" goToCatalan()"
+                            class="bandera">Carta Català</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"  onclick="goToInformacion()"><img src="assets/info.png" onclick="goToInformacion()" class="bandera">Información</a>
+                    <a class="nav-link" onclick="goToInformacion()"><img src="assets/info.png"
+                            onclick="goToInformacion()" class="bandera">Información</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onclick="goToResenas()"><img src="assets/estrella.png" onclick="goToResenas()" class="bandera">Reseñas</a>
+                    <a class="nav-link" onclick="goToResenas()"><img src="assets/estrella.png" onclick="goToResenas()"
+                            class="bandera">Reseñas</a>
                 </li>
-             </ul>
+            </ul>
         </div>
+        <img src="assets/fotos/fotoEntrada.png" class="fotoEntrada"><br><br>
+        <hr class="smallHr">
         <br>
-        <div id="cartaEspanol" >
+        <!--CASTELLANO-->
+        <div id="cartaEspanol">
             <div class="titulo">
                 <img src="assets/espana.png" class="bandera">
-                Carta en Español</div>
-                <div class="cajaMain">
-                    <div class="cajita">
-                        <div class="seccion">Platos Combinados + Guarnicion + Bebida</div>
-                        <div class="precio">7,50€</div>
-                    </div>
-                    <div class="subSeccion">Plato Combinado</div>
-                    <hr class="smallHr">
-                        Lomo<br>
-                        Pechuga de Pollo<br>
-                        Pinchos Morunos<br>
-                        Butifarra de Pagés<br>
-                        Hamburguesa de Ternera<br>
-                        Sachichas<br>
-                        Bistec de Ternera<br>
-                        Calamares a la Romana<br>
-                        Bacon<br>
-                        Chistorra<br>
-                        Merluza<br>
-                        <br>
-                    <div class="subSeccion">Guarnición</div>
-                        <hr class="smallHr">
-                        Ensalada<br>
-                        Patatas Fritas<br>
-                        Pimiento<br>
-                        Huevo Frito<br>
-                        Ensaladilla Rusa<br>
-                        <br>
+                Carta en Español
+            </div><br>
+            <div class="cajaMain">
+                <div class="cajita">
+                    <div class="seccion">Platos Combinados + Guarnicion + Bebida</div>
+                    <div class="precio">7,50€</div>
                 </div>
-                <br><br>
-                <div class="cajaMain">
-                    <div class="cajita">
-                        <div class="seccion">Ensaladas</div>
-                    </div>
-                    <div class="subSeccion">Ensalada de la casa</div>
-                    <div class="precio">3,50€</div>
-                    <div class="subSeccion">Ensalada de Queso de Cabra</div>
-                    <div class="precio">6,50€</div>
+                <div class="subSeccion">Plato Combinado</div>
+                <hr class="smallHr">
+                Lomo<br>
+                Pechuga de Pollo<br>
+                Pinchos Morunos<br>
+                Butifarra de Pagés<br>
+                Hamburguesa de Ternera<br>
+                Sachichas<br>
+                Bistec de Ternera<br>
+                Calamares a la Romana<br>
+                Bacon<br>
+                Chistorra<br>
+                Merluza<br>
+                <br>
+                <div class="subSeccion">Guarnición</div>
+                <hr class="smallHr">
+                Ensalada<br>
+                Patatas Fritas<br>
+                Pimiento<br>
+                Huevo Frito<br>
+                Ensaladilla Rusa<br>
+            </div>
+            <br><br>
+            <div class="cajaMain">
+                <div class="cajita">
+                    <div class="seccion">Ensaladas</div>
                 </div>
-                <br><br>
-                <div class="cajaMain">
-                    <div class="cajita">
-                        <div class="seccion">Bocadillos</div>
-                    </div>
-                    Bocadillo<span class="subSeccion"> Entero / Medio</span><br>
-                    <hr class="smallHr">
-                    Jamon Dulce <span class="precio">3,70€ - 2,40€</span><br>
-                    Jamon Serrano <span class="precio">3,95€ - 2,60€</span><br>
-                    Jamon Ibérico <span class="precio">6,50€ - 3,95€</span><br>
-                    Chorizo Ibérico <span class="precio">3,80€ - 2,50€</span><br>
-                    Fuet <span class="precio">3,85€ - 2,50€</span><br>
-                    Atún <span class="precio">3,95€ - 2,60€</span><br>
-                    Bull Blanco <span class="precio">3,80€ - 2,50€</span><br>
-                    Queso semi <span class="precio">3,85€ - 2,50€</span><br>
-                    York y Queso <span class="precio">4,25€ - 2,75€</span><br>
-                    Lomo <span class="precio">3,50€ - 2,75€</span><br>
-                    Lomo y Queso <span class="precio">4,25€ - 2,90€</span><br>
-                    Lomo, Bacon y Queso <span class="precio">4,90€ - 3,25€</span><br>
-                    Bacon Queso <span class="precio">3,65€ - 2,50€</span><br>
-                    Tortilla Francesa <span class="precio">3,65€ - 2,75€</span><br>
-                    Tortilla de la casa <span class="precio">3,95€ - 2,60€</span><br>
-                    Salchicha <span class="precio">3,90€- 2,75€</span> <br>
-                    Salchichas y Queso <span class="precio">4,25€ - 2,90€</span><br>
-                    Pinchos Morunos <span class="precio">3,90€ - 2,90€</span><br>
-                    Frankfurt <span class="precio">3,60€ - ----</span><br>
-                    Chistorra <span class="precio">3,80€ - 2,60€</span><br>
-                    Hamburguesa <span class="precio">3,90€ - ----</span><br>
-                    Hamburguesa y Queso <span class="precio">4,25€ - ----</span><br>
-                    Bistec <span class="precio">5,90€ - ----</span><br>
-                    Pechuga de Pollo <span class="precio">3,90€ - ----</span><br>
-                    Bikini <span class="precio">3,00€ - ----</span><br>
-                    Calamares <span class="precio">3,95€ - 2,75€</span><br><br>
-                    <span class="subSeccion">Suplemento</span><br>
-                    Queso, Cebolla, Bacon, Pimiento, Queso <span class="precio">1€</span>
+                <div class="subSeccion">Ensalada de la casa</div>
+                <div class="precio">3,50€</div>
+                <div class="subSeccion">Ensalada de Queso de Cabra</div>
+                <div class="precio">6,50€</div>
+            </div>
+            <br><br>
+            <div class="cajaMain">
+                <div class="cajita">
+                    <div class="seccion">Bocadillos</div>
                 </div>
-                <br><br>
-                <div class="cajaMain">
-                    <div class="cajita">
-                        <div class="seccion">Tapas</div>
-                    </div>
-                    Olivas <span class="precio">2,00€</span><br>
-                    Ensaladilla Rusa <span class="precio">3,60€</span><br>
-                    Patatas Chips <span class="precio">1,60€</span><br>
-                    Fuet <span class="precio">4,50€</span><br>
-                    Jamón Ibérico <span class="precio">9,95€</span><br>
-                    Queso Semi <span class="precio">6,00€</span><br>
-                    Patatas Bravas <span class="precio">3,70€</span><br>
-                    Pinchos Morunos <span class="precio">4,50€</span><br>
-                    Chistorra <span class="precio">3,50€</span><br>
-                    Calamares <span class="precio">4,50€</span><br>
-                    Tortilla de la Casa <span class="precio">3,95€</span><br>
-                    Callos <span class="precio">4,95€</span><br>
-                    Croquetas <span class="precio">1,25€</span><br>
-                    Empanadilla <span class="precio">1,50€</span><br>
+                Bocadillo<span class="subSeccion"> Entero / Medio</span><br>
+                <hr class="smallHr">
+                Jamon Dulce <span class="precio">3,70€ - 2,40€</span><br>
+                Jamon Serrano <span class="precio">3,95€ - 2,60€</span><br>
+                Jamon Ibérico <span class="precio">6,50€ - 3,95€</span><br>
+                Chorizo Ibérico <span class="precio">3,80€ - 2,50€</span><br>
+                Fuet <span class="precio">3,85€ - 2,50€</span><br>
+                Atún <span class="precio">3,95€ - 2,60€</span><br>
+                Bull Blanco <span class="precio">3,80€ - 2,50€</span><br>
+                Queso semi <span class="precio">3,85€ - 2,50€</span><br>
+                York y Queso <span class="precio">4,25€ - 2,75€</span><br>
+                Lomo <span class="precio">3,50€ - 2,75€</span><br>
+                Lomo y Queso <span class="precio">4,25€ - 2,90€</span><br>
+                Lomo, Bacon y Queso <span class="precio">4,90€ - 3,25€</span><br>
+                Bacon Queso <span class="precio">3,65€ - 2,50€</span><br>
+                Tortilla Francesa <span class="precio">3,65€ - 2,75€</span><br>
+                Tortilla de la casa <span class="precio">3,95€ - 2,60€</span><br>
+                Salchicha <span class="precio">3,90€- 2,75€</span> <br>
+                Salchichas y Queso <span class="precio">4,25€ - 2,90€</span><br>
+                Pinchos Morunos <span class="precio">3,90€ - 2,90€</span><br>
+                Frankfurt <span class="precio">3,60€ - ----</span><br>
+                Chistorra <span class="precio">3,80€ - 2,60€</span><br>
+                Hamburguesa <span class="precio">3,90€ - ----</span><br>
+                Hamburguesa y Queso <span class="precio">4,25€ - ----</span><br>
+                Bistec <span class="precio">5,90€ - ----</span><br>
+                Pechuga de Pollo <span class="precio">3,90€ - ----</span><br>
+                Bikini <span class="precio">3,00€ - ----</span><br>
+                Calamares <span class="precio">3,95€ - 2,75€</span><br><br>
+                <span class="subSeccion">Suplemento</span><br>
+                Queso, Cebolla, Bacon, Pimiento, Queso <span class="precio">1€</span>
+            </div>
+            <br><br>
+            <div class="cajaMain">
+                <div class="cajita">
+                    <div class="seccion">Tapas</div>
                 </div>
+                Olivas <span class="precio">2,00€</span><br>
+                Ensaladilla Rusa <span class="precio">3,60€</span><br>
+                Patatas Chips <span class="precio">1,60€</span><br>
+                Fuet <span class="precio">4,50€</span><br>
+                Jamón Ibérico <span class="precio">9,95€</span><br>
+                Queso Semi <span class="precio">6,00€</span><br>
+                Patatas Bravas <span class="precio">3,70€</span><br>
+                Pinchos Morunos <span class="precio">4,50€</span><br>
+                Chistorra <span class="precio">3,50€</span><br>
+                Calamares <span class="precio">4,50€</span><br>
+                Tortilla de la Casa <span class="precio">3,95€</span><br>
+                Callos <span class="precio">4,95€</span><br>
+                Croquetas <span class="precio">1,25€</span><br>
+                Empanadilla <span class="precio">1,50€</span><br>
+            </div>
         </div>
         <hr>
+        <!--CATALA-->
         <div id="cartaCatala">
             <div class="titulo">
                 <img src="assets/catalan.png" class="bandera">
-                Carta en Català</div>
+                Carta en Català
+            </div><br>
             <div class="cajaMain">
                 <div class="cajita">
                     <div class="seccion">Plats Combinats + Guarnició + Beguda</div>
@@ -142,26 +154,25 @@
                 </div>
                 <div class="subSeccion">Plat Combinat</div>
                 <hr class="smallHr">
-                    Llom<br>
-                    Pit de Pollastre<br>
-                    Pintxos Moruns<br>
-                    Butifarra de Pagés<br>
-                    Hamburguesa de Ternera<br>
-                    Saltxitxes<br>
-                    Bistec de Ternera<br>
-                    Calamars a la Romana<br>
-                    Bacò<br>
-                    Xistorra<br>
-                    Lluç<br>
-                    <br>
+                Llom<br>
+                Pit de Pollastre<br>
+                Pintxos Moruns<br>
+                Butifarra de Pagés<br>
+                Hamburguesa de Ternera<br>
+                Saltxitxes<br>
+                Bistec de Ternera<br>
+                Calamars a la Romana<br>
+                Bacò<br>
+                Xistorra<br>
+                Lluç<br>
+                <br>
                 <div class="subSeccion">Guarnició</div>
-                    <hr class="smallHr">
-                    Amanida<br>
-                    Patatas Fregides<br>
-                    Pebrot<br>
-                    Ou Fregit<br>
-                    Amanida Russa<br>
-                    <br>
+                <hr class="smallHr">
+                Amanida<br>
+                Patatas Fregides<br>
+                Pebrot<br>
+                Ou Fregit<br>
+                Amanida Russa<br>
             </div>
             <br><br>
             <div class="cajaMain">
@@ -176,7 +187,7 @@
             <br><br>
             <div class="cajaMain">
                 <div class="cajita">
-                    <div class="seccion">Entremans</div>
+                    <div class="seccion">Entrepans</div>
                 </div>
                 Bocadillo<span class="subSeccion"> Sencer / Mig</span><br>
                 <hr class="smallHr">
@@ -234,27 +245,31 @@
         <div id="Informacion">
             <div class="titulo">
                 <img src="assets/info.png" class="bandera">
-                Información</div>
+                Información
+            </div>
             <div class="cajaMain">
                 <div class="cajita">
-                    <img src="assets/whatsapp.png" class="bandera">Whatsapp para pedidos
+                    <img src="assets/whatsapp.png" class="bandera"><span class="seccion"> Whatsapp para pedidos</span>
                 </div>
                 645 68 52 08
-                <div class="cajita">
-                    <img src="assets/telefono.png" class="bandera"> Telefono
+                <div class="cajita cajitaSecundaria">
+                    <img src="assets/telefono.png" class="bandera"><span class="seccion"> Telefono</span>
                 </div>
                 932 80 39 38
-                <div class="cajita">
-                    Horario
+                <div class="cajita cajitaSecundaria">
+                    <img src="assets/horario.png" class="bandera"><span class="seccion"> Horario</span>
                 </div>
                 Lunes a Viernes 7:00h - 21:00h <br>
                 Sabado 7:00h - 12:00h <br>
                 Domingo Cerrado
-                <div class="cajita">
-                    <img src="assets/mapsPointer.png" class="bandera"> Dirección
+                <div class="cajita cajitaSecundaria">
+                    <img src="assets/mapsPointer.png" class="bandera"><span class="seccion"> Dirección</span>
                 </div>
                 Carrer de Buïgas, 2, 08017 Barcelona
-                <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Bar%20Uncastillo+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div>
+                <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no"
+                        marginheight="0" marginwidth="0"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Bar%20Uncastillo+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                            href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div>
 
             </div>
         </div>
@@ -264,7 +279,8 @@
                 <div id="Reseñas">
                     <div class="titulo">
                         <img src="assets/estrella.png" class="bandera">
-                        Reseñas</div>
+                        Reseñas
+                    </div>
                 </div>
             </div>
             <div class="elfsight-app-ffed6e18-423e-4e5a-ad2f-cfb4619b0d1e"></div>
@@ -272,4 +288,5 @@
     </div>
     <br>
 </body>
+
 </html>

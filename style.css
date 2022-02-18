@@ -11,10 +11,17 @@
 
 .header{
     background-color:rgba(128, 128, 128, 0.473);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.fotoEntrada{
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
 }
 
 .nav-link{
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 hr{
@@ -29,7 +36,8 @@ hr{
 }
 
 .seccion{
-    font-size:large 
+    font-size:large;
+    font-weight: bold;
 }
 
 .subSeccion{
@@ -45,7 +53,7 @@ hr{
 
 body{
     font-family: 'Lucida Sans';
-    background-color: #e2e2e2 ;
+
 }
 
 .smallHr{
@@ -64,8 +72,15 @@ body{
 }
 
 .cajita{
-
     background-color: rgb(0, 221, 221);
     border-radius: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cajitaSecundaria{
+    background-color: rgb(0, 221, 221);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border-radius: 0px 0px 0px 0px;
 }
