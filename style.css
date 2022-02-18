@@ -10,50 +10,52 @@
 }
 
 .header{
-    background-color:rgba(128, 128, 128, 0.473);
+    background-color:rgba(138,168,158);
     border-radius: 0px 0px 30px 30px;
 }
 
 .fotoEntrada{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
+    border: solid 1px black;
 }
 
 .nav-link{
-    color: black;
+    color: rgb(214,214,214);
     font-weight: bold;
 }
 
 hr{
-    color: rgb(0, 221, 221);
+    color: rgb(40,68,75);
     height: 3px;
     opacity: 1;
 }
 
 .titulo{
     font-size:x-large;
-    color: red;
+    color: rgb(40,68,75);
 }
 
 .seccion{
     font-size:large;
+    color: rgb(40,68,75);;
     font-weight: bold;
 }
 
 .subSeccion{
-    color:blue;
+    color:rgb(40,68,75);
     font-size:medium;
     font-weight: bold;
 }
 
 .precio{
-    color: red;
+    color: rgb(40,68,75);
     font-weight:bold;
 }
 
 body{
     font-family: 'Lucida Sans';
-
+    background-color:  rgb(187, 168, 139);
 }
 
 .smallHr{
@@ -63,8 +65,7 @@ body{
 }
 
 .cajaMain{
-    background-color: #dadada;
-    opacity: 0.9;
+    background-color: rgb(224,216,197);
     border-radius: 10px;
     width: 95%;
     display: inline-block;
@@ -72,7 +73,7 @@ body{
 }
 
 .cajita{
-    background-color: rgb(0, 221, 221);
+    background-color: rgb(138, 168, 158);
     border-radius: 10px;
     margin-bottom: 5px;
     border-radius: 10px 10px 0px 0px;
@@ -80,8 +81,9 @@ body{
 }
 
 .cajitaSecundaria{
-    background-color: rgb(0, 221, 221);
+    background-color: rgb(138, 168, 158);
     border-radius: 10px;
     margin-bottom: 5px;
     border-radius: 0px 0px 0px 0px;
+    border-top: 1px solid black;
 }
