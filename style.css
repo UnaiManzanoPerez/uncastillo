@@ -10,7 +10,7 @@
 }
 
 .header{
-    background-color:gray;
+    background-color:rgba(128, 128, 128, 0.473);
 }
 
 .nav-link{
@@ -18,14 +18,14 @@
 }
 
 hr{
-    color: yellow;
+    color: rgb(0, 221, 221);
     height: 3px;
     opacity: 1;
 }
 
 .titulo{
     font-size:x-large;
-    color: white;
+    color: red;
 }
 
 .seccion{
@@ -34,16 +34,18 @@ hr{
 
 .subSeccion{
     color:blue;
-    font-size:medium 
+    font-size:medium;
+    font-weight: bold;
 }
 
 .precio{
     color: red;
+    font-weight:bold;
 }
 
 body{
     font-family: 'Lucida Sans';
-    background-color: #229954 ;
+    background-color: #e2e2e2 ;
 }
 
 .smallHr{
@@ -53,12 +55,12 @@ body{
 }
 
 .cajaMain{
-    background-color: aliceblue;
+    background-color: #dadada;
     opacity: 0.9;
     border-radius: 10px;
     width: 95%;
     display: inline-block;
-    
+    border: 1px solid black;
 }
 
 .cajita{
