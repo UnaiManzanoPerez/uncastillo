@@ -38,7 +38,7 @@ hr{
 
 .seccion{
     font-size:large;
-    color: rgb(40,68,75);;
+    color: rgb(40,68,75);
     font-weight: bold;
 }
 
@@ -50,11 +50,10 @@ hr{
 
 .precio{
     color: rgb(40,68,75);
-    font-weight:bold;
 }
 
 body{
-    font-family: 'Lucida Sans';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:  rgb(187, 168, 139);
 }
 
@@ -87,3 +86,17 @@ body{
     border-radius: 0px 0px 0px 0px;
     border-top: 1px solid black;
 }
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    text-align: left;
+    padding: 4px;
+}
+
+tr :nth-child(2n), tr :nth-child(3n){
+    color: rgb(40,68,75);
+} 

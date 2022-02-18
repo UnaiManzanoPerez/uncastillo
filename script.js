@@ -17,3 +17,9 @@ function goToResenas(){
     var elmnt = document.getElementById("Reseñas");
     elmnt.scrollIntoView();
 }
+
+$(document).ready(function()
+{
+  $("tr:even").css({
+    "background-color":"#DFD4BA"});
+});
